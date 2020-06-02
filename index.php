@@ -1,4 +1,3 @@
-
 <?PHP 
 
 $baseDir = '.\scripts';
@@ -8,6 +7,7 @@ $files = scandir($baseDir, 1);
 array_splice($files, count($files) - 2, 2);
 
 foreach($files as $file) {
+    if (preg_match("/^.*\.(js|py|php)$/i", $file)){
     $extension = pathinfo($file, PATHINFO_EXTENSION);
     if($extension == 'js'){
         http_response_code(200);
@@ -21,6 +21,10 @@ foreach($files as $file) {
     }else{
         http_response_code(404);
         $command = "Not found";      
+    }
+    }else{
+        http_response_code(400);
+        $command = "This user uploaded the wrong file";
     }
     header('Content-Type: application/json');
     echo json_encode([$command]);
