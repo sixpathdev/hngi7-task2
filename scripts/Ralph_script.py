@@ -5,5 +5,5 @@ def MyFunc():
 
     return f'Hello World, this is {full_name} with HNGi7 ID {hng_id} using {language} for stage 2 task'
 
-
-MyFunc()
+# output
+print(MyFunc())
