@@ -1,0 +1,5 @@
+print ("Hello world,")
+print ("this is Paula Ulor with HNGI7 ID: HNG 01463 and email paulaulor@yahoo.com using Python for stage 2 task\n")
+print ("name: Paula Ulor")
+print ("language: Python")
+print ("status: Pass")
