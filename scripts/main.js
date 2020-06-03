@@ -1,5 +1,12 @@
-var work = function (name, email, language, hngId){
-	return `Hello world, this is ${name} with HNGi7 ID ${hngId} and email ${email} using ${language} for stage 2 task`
-}
+ var details = {
+ 	name : "Abdullahi Luqman" ,
+ 	email : "luqmonac56@gmail.com", 
+ 	lang : "javascript",
+ 	hngId : "HNG-03395",
+ };
 
-console.log(work("Abdullahi Luqman" , "luqmonac56@gmail.com", "javascript", "HNG-03395"))
+var work = function (){
+	return `Hello world, this is ${details.name} with HNGi7 ID ${details.hngId} and email ${details.email} using ${details.lang} for stage 2 task`
+};
+
+console.log(work());
