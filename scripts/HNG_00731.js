@@ -1,6 +1,7 @@
 var fs = require('fs');
 
 var dataObject = {
+  file: 'HNG-00731.js',
   name: 'Peter Baraka',
   email: 'pbobaraka@gmail.com',
   iD: 'HNG-00731',
@@ -8,6 +9,7 @@ var dataObject = {
 };
 
 var resultObject = {
+  file: dataObject.file,
   name: dataObject.name,
   email: dataObject.email,
   iD: dataObject.iD,
@@ -20,7 +22,7 @@ var resultObject = {
     ' using ' +
     dataObject.language +
     ' for stage 2 task',
-  status: '',
+  status: 'Pass',
 };
 
 fs.writeFile(
