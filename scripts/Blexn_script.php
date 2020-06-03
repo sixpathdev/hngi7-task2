@@ -8,7 +8,3 @@
 echo "Hello World, this is " .$my_full_name. " with HNGi7 ID " .$my_id. " using " .$language. " for stage 2 task";
 
 ?>
-    
-  
-</body>
-</html>
