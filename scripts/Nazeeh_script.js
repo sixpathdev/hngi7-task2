@@ -4,7 +4,7 @@
   
 const profiles = 
       {
-        name: "Nazih",
+        name: "Nazih Ajanah",
         id: "HNG-02408",
         language: "JavaScript",
         email: "nazihahmed55@gmail.com",
