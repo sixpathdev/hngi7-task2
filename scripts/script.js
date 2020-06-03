@@ -1,8 +1,8 @@
-const intern = {
-    fullName: 'Ockiya Beinmonyu Daniel',
-    id: 'HNG-05057',
-    email: 'annonbytes@gmail',
-    language: 'javascript'
-}
 
-console.log(`Hello world, this is ${intern.fullName} with HNGi7 ID ${intern.id} using ${intern.language} for stage 2 task`);
+const fullName = 'Ockiya Beinmonyu Daniel';
+const id = 'HNG-05057';
+const email = 'annonbytes@gmail.com'
+const language = 'JavaScript';
+let internInfo = `Hello World, this is ${fullName} with HNGi7 ID ${id} using ${language} for stage 2 task.`;
+
+console.log(internInfo);
