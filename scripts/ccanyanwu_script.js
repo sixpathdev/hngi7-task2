@@ -13,4 +13,4 @@
  }
  
  //prints this output to the browser
-document.write(myDetails());
+console.log(myDetails());
