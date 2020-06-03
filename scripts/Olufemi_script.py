@@ -1,11 +1,8 @@
-import os
+def my_script():
+    fullname = "Odedeyi Olufemi"
+    ID = "HNG-01684"
+    lang = "Python"
+    email = "olufemiodedeyi@gmail.com"
 
-file_path = os.path.abspath("C:/Users/USER/OneDrive/Desktop/Personal Documents/HNGi7_Tasks/Task2/hngi7-task2/index.php")
-def run_phpfile():
-    open_file = open(file_path)
-    if open_file:
-        print("file open")
-    else:
-        print("Error")
-
-run_phpfile()
+    print("Hello World, this is {} with HNGi7 ID {} using {} for stage 2 task".format(fullname, ID, lang))
+my_script()
