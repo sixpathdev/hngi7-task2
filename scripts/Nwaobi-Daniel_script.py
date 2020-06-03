@@ -1,8 +1,10 @@
 #HNGi7 TASK FOR STAGE 2
 #TEAM FLASH
 
-def hngi7_1():
+full_name = "Nwaobi Daniel"
+my_id = "HNG-04069"
+email = "dannychukz15@gmail.com"
+language = "Python"
 
-	print('Hello World, this is Nwaobi Daniel with HNGi7 ID HNG-04069 and email dannychukz15@gmail.com using Python for Stage 2 Task')
+	print("Hello World, this is " + full_name + " with HNGi7 ID " + my_id + " using " + language + " for stage 2 task") 
 
-hngi7_1()
