@@ -2,8 +2,8 @@ const getdetails = () => {
     const details = {
         name: "Oluwatosin Oladimeji Oladokun",
         hngid: "HNG-03984",
-        language: "javascript",
-        email: "tosinoladokun3@gmail.com"
+        email: "tosinoladokun3@gmail.com",
+        language: "javascript"
     }
     return "Hello world this is " 
     + details.name 
