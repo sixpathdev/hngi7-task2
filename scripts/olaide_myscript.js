@@ -1,11 +1,11 @@
-var fName = 'Olaide'
-var lName = 'gbeyide'
-var id =  'HNG-01638'
+var name = 'Olaide Gbeyide'
+var hng_id =  'HNG-01638'
+var email = 'toungbeyide9@gmail.com'
 var language = 'JavaScript'
-var fullName = fName + lName
+
 
 function myMessage() {
-    return `Hello World, this is ${fullName} with HNGi7 ID ${id} using ${language} for stage 2 task`
+    return `Hello World, this is ${name} with HNGi7 ID ${id} using ${language} for stage 2 task`
 }
 var message = myMessage()
 document.write(message)
