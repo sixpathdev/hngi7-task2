@@ -1,22 +1,14 @@
-<<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-
-  <?php
-    $fullname = "Blessing Ogunsekan";
-    $id = "HNG-02295";
+<?php
+    $my_full_name = "Blessing Ogunsekan";
+    $my_id = "HNG-02295";
+    $my_email = "onyeka_blessing@yahoo.com";
     $language = "PHP";
 
 
-echo("Hello World, this is " . $fullname. " with HNGi7 ID " .$id. " using " .$language . " for stage 2 task");
+echo "Hello World, this is " .$my_full_name. " with HNGi7 ID " .$my_id. " using " .$language. " for stage 2 task";
 
 ?>
+    
   
 </body>
 </html>
