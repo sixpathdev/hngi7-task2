@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1> my first PHP page </h1>
-
 <?php
 $txt = "Hello World"
 $name = "Nsikak Inyangabia"
