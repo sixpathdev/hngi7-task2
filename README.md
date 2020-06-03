@@ -1,7 +1,7 @@
 # hngi7-task2
 # TEAM FLASH:zap: STAGE :one: TASK
 
-##Team Members Guide
+## Team Members Guide
 - You'll be needing a personal computer first:technologist:
 - Fork:fork_and_knife: this repository by clicking on the fork button
 - Clone the forked repository to your local storage
