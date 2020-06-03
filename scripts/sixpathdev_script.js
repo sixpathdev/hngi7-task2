@@ -11,4 +11,4 @@ console.log(intern)
 	const id=intern.id;
 	const language=intern.language; 
 
-console.log ("Hello world!"+" "+ "I am"+" "+fullname+","+" "+"ID of:"+" "+id+" "+"using"+" "+language+" "+"for stage 2 task");
+document.write ("Hello world!"+" "+ "I am"+" "+fullname+","+" "+"ID of:"+" "+id+" "+"using"+" "+language+" "+"for stage 2 task");
