@@ -1,5 +1,3 @@
-greeting = "Hello World"
-
 full_name = "Gerald Izuchukwu Ugwunna"
 
 hngi7_ID = "HNG-05974"
