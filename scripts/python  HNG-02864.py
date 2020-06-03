@@ -1,3 +1,3 @@
 ﻿
 
-print( "Hello world"" \n ""My name is Oluwatobi Aduloju"" \n ""My ID is : HNG-02864"" \n ""I am writing with Python")
+print( "Hello world"" ""this is Oluwatobi Aduloju" " "" with HNGi7 ID HNG-02864"" ""using Python for stage2 task")
