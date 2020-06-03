@@ -18,6 +18,9 @@ $id = "HNG-00457";
 //Variable for Language
 $language = "PHP";
 
+//Variable for Email
+$email = "jonasbraham@gmail.com";
+
 // Output to be displayed
 $output = "Hello World, this is $full_name with  HNGi7 ID $id using $language for stage 2 task";
 
