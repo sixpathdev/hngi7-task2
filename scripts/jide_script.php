@@ -1,11 +1,13 @@
 <?php
 
-  $name = 'Oladejo Olajide';
-  $id = 'HNG-00248';
-  $language = 'PHP';
+//Declare variables and assinging their values
+  $myName = 'Oladejo Olajide';
+  $myID = 'HNG-00248';
+  $progLanguage = 'PHP';
   $email = 'programmerolajide@gmail.com';
   
-  echo 'Hello World, this is '.$name.' with HNGi7 ID '.$id.' using '.$language.' for stage 2 task';
+  //printing out the statement as requested
+  echo 'Hello World, this is '.$myName.' with HNGi7 ID '.$myID.' using '.$progLanguage.' for stage 2 task';
  
 
 ?>
