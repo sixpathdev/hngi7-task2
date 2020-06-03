@@ -1,12 +1,8 @@
-const details = {
-  name: 'Nnamani Kosisochukwu Melvin',
-  email: 'melvinnnamani@gmail.com',
-  id: 'HNG-01617',
-  language: 'JavaScript',
-};
+const name = 'Nnamani Kosisochukwu Melvin';
+const email = 'melvinnnamani@gmail.com';
+const hng_id = 'HNG-01617';
+const language = 'JavaScript';
 
-let output = (input) => {
-  return `Hello World, this is ${input.name} with HNGi7 ID ${input.id} using ${input.language} for stage 2 task`;
-};
+let output = `Hello World, this is ${name} with HNGi7 ID ${hng_id} using ${language} for stage 2 task`;
 
-document.write(output(details));
+console.log(output);
