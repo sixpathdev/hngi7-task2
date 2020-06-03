@@ -2,6 +2,14 @@
 
 <script>
   
-document.write("Hello world, This is Nazih Ajanah with HNGi7 ID 02408");
+const profiles = 
+      {
+        name: "Nazih",
+        id: "HNG-02408",
+        language: "JavaScript",
+        email: "nazihahmed55@gmail.com",
+      }
+
+document.write("Hello World, This is " + profiles.name + " with HNGi7 ID " + profiles.id + " using " + profiles.language + " for stage 2 task with email: " + profiles.email);
 
 </script>
