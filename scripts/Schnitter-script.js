@@ -1,0 +1,2 @@
+document
+.write( "<p> <b style='color:red'>Hello World</b>,this is <span style='color:blue'><b>Fakhreddine Hariz </b></span> with HNGi7 ID <b style='color:green'>HNG-03410</b> using <b style='color:yellow ; background:black'>JavaScript</b> for stage 2 task </p>")
