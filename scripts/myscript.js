@@ -5,6 +5,7 @@
 let fname = "Osara Wisdom";
 let id = "HNG-04550";
 let language = "JavaScript";
+let email = "wisdomosara@gmail.com"
 
 //defining the function
 function getGreeting(){
