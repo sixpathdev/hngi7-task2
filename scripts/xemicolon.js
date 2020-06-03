@@ -1,6 +1,6 @@
 const details = {
   fullName: "Agunloye Oluwatobiloba Light",
-  hng_id: "02614",
+  hng_id: "HNG-02614",
   email: "jgetitdonefast@gmail.com",
   language: "Javascript",
 };
