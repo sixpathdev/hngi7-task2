@@ -1,4 +1,4 @@
-const name = 'vincentakomolafe';
+const name = 'Vincent Akomolafe';
 const hng_id, = '00579';
 const email = 'vincentakomolafe@gmail.com';
 const language = 'javascript;
