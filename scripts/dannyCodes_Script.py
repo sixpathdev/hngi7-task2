@@ -1,3 +1,6 @@
+email = "taylormed2@gmail.com"
+
+
 def myInfo(name, hng_id, lang):
     return "Hello World, this is  {}  with HNGi7 ID {} using {} for stage 2 task".format(name, hng_id, lang)
 
