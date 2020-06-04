@@ -1,0 +1,1 @@
+print ("Hello World, this is Adikemere Fortune with HNGi7 ID HND-05046 using python for stage 2 task")
