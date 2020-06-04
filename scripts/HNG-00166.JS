@@ -1,4 +1,4 @@
-let details = () => {
+let information = () => {
      
     let info ={
       name : 'Falaye Precious-gift',
@@ -10,4 +10,4 @@ let details = () => {
     return `Hello World, this is ${info.name} with HNGi7 ID ${info.id} using ${info.language} for stage 2 task`;
   }
  
- document.write(details()); 
+ console.log(information()); 
