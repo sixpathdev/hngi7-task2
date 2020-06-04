@@ -5,6 +5,6 @@ let name = "Nwaobi Daniel";
 let myId = "HNG-04069";
 let language = "Javascript";
 
-const output = `Hello World, this is ${name} with HNGi7 ID ${myId} using ${language} for stage 2 task email ${email}`;
+let output = `Hello World, this is ${name} with HNGi7 ID ${myId} using ${language} for stage 2 task email ${email}`;
 
 console.log(output);
