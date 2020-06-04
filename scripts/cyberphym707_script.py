@@ -1,6 +1,6 @@
+email = "dmainman4sucess@gmail.com"
 name = "Jimoh Lawal"
 hng_id = "HNG-01277"
-email = "dmainman4sucess@gmail.com"
 language = "Python"
 
 #output
