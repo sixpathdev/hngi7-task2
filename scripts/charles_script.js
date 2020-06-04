@@ -1,6 +1,6 @@
+const email = "charles.onuorah@yahoo.com"
 const fullName = "Charles Onuorah"
 const ID = "HNG-03043"
-const Email = "charles.onuorah@yahoo.com"
 const language = "Javascript"
 
 const outputUserDetails = () => {
