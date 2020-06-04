@@ -1,5 +1,6 @@
 <?php
 
+    $email = "olusolaojewunmi@gmail.com";
     $first_name = "Olusola";
     $surname = "Ojewunmi";
     $hngi7_id = "HNG-01596";
