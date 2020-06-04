@@ -1,6 +1,6 @@
+const email = "iadeleke01@gmail.com";
 const name = "Adeleke Isaiah";
 const id = "HNG-00931";
-const email = "iadeleke01@gmail.com";
 const language = "Javascript";
 
 
