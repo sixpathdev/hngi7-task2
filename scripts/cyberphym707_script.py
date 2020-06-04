@@ -1,7 +1,8 @@
-myEmail = "dmainman4sucess@gmail.com"
-myName = "Jimoh Lawal"
-hngboard_id = "HNG-01277"
-language_used = "Python"
+name = ('Jimoh Lawal')
+hng_id = ('HNG-01227')
+language = ('Python')
+email = ('dmainman4sucess@gmail.com')
 
-#output
-print("Hello World, this is " + myName + " with HNGi7 ID " + hngboard_id + " using " + language_used + " for stage 2 task " "email " + myEmail + "")
+
+print('Hello World, this is ' + name + ' with HNGi7 ID ' +
+      hng_id + ' using ' + language + ' for stage 2 task email ' + email)
