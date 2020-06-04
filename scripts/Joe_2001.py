@@ -7,4 +7,4 @@ language="python"
 email="joseph.john.ali.2001@gmail.com"
 #Inputing into the sentence
 #print("Hello World, this is",full_name,"with","HNGi7 ID",hng_id,"using",language,"for the stage 2 task email",email)
-print("Hello World, this is {full_name} with HNGi7 ID {hng_id} using {language} for stage 2 task")
+print("Hello World, this is {full_name} with HNGi7 ID {hng_id} using {language} for stage 2 task email {email}")
