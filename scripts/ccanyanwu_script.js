@@ -3,7 +3,7 @@ const email = 'eme42c@gmail.com';
 //function that returns my full details as a string 
  const myDetails = () => {
    //variables to hold my data 
-   const name = 'Chukwuemeka Collins Anyanwu',
+   const name = 'Chukwuemeka Anyanwu',
          id = 'HNG-00278',
          lang = 'JavaScript';
          //returns a string containing details 
