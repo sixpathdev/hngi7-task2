@@ -6,13 +6,15 @@ const output = () => {
     language: "javascript",
   };
   return (
-    " Hello world, this is " +
+    "Hello world, this is " +
     info.fullName +
     " with HNG ID " +
     info.hngid +
     " using " +
     info.language +
-    " for stage 2 task. "
+    " for stage 2 task email " +
+    info.email +
+    "."
   );
 };
 
