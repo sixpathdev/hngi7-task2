@@ -1,6 +1,6 @@
 name = "Fasakin Oluwaseyi Ayomide"
-hngId= "HNG-03081"
-email ="royaltechpriest@gmail.com"
+HNGID = 'HNG-03081'
+email= 'royaltechpriest@gmail.com'
+language = "Python"
 
-
-print("Hello World, this is "+name +" with HNGi7 ID" + hngId + " and email " + email+ " using python for stage 2 task")
+print("Hello world" + ','  + "this is " + name + ' with HNGi7 ID '+ HNGID + ' using ' + language +' for stage 2 task' )
