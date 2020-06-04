@@ -1,6 +1,6 @@
+email = "chudyn@yahoo.com"
 name = "Chukwuonye Grace Onyinyechi"
 hng_id ="HNG-00439"
-email = "chudyn@yahoo.com"
 lang = "python"
 
 
