@@ -1,5 +1,8 @@
-print ("Hello world,")
-print ("this is Paula Ulor with HNGI7 ID: HNG 01463 and email paulaulor@yahoo.com using Python for stage 2 task\n")
-print ("name: Paula Ulor")
-print ("language: Python")
-print ("status: Pass")
+def my_script():
+    name = "Ulor Paula Onyinyechukwu"
+    email = "paulaulor@yahoo.com"
+    hng_id = "HNG-01463"
+    lang = "Python"
+    print("Hello World, this is {name} with HNGi7 ID {hng_id} using {lang} for stage 2 task")
+
+
