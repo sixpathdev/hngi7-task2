@@ -6,6 +6,6 @@ let language = 'javascript';
 
 let hngid = 'HNG-04597';
 
-let result = "Hello World, I am " + fullname + " with HNGi7 ID: " + hnhid + " and I am using " + language  + " for the task on stage 2 ";
+let result = "Hello World, I am " + fullname + " with HNGi7 ID: " + hngid + " and I am using " + language  + " for the task on stage 2 ";
 
 console.log(result);
