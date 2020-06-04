@@ -1,4 +1,4 @@
-var email;
+var email = "omotarakuds@gmail.com";
 const fullname = "Omotara Kudehinbu";
 const id = "HNG-04808";
 const language = "javaScript";
