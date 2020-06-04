@@ -5,6 +5,6 @@ const myDetails = {
   email: "ugochukwu.ogbona@gmail.com",
 };
 
-let details = `Hello World, this is ${myDetails.fullname} with HNGi7 ID ${myDetails.hng_id} and email ${myDetails.email} using ${myDetails.lang} for stage 2 task.`;
+let details = `Hello World, this is ${myDetails.fullname} with HNGi7 ID ${myDetails.hng_id} using ${myDetails.lang} for stage 2 task email ${myDetails.email}`;
 
 console.log(details);
