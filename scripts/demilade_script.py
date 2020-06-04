@@ -1,4 +1,4 @@
-full_name = "Oladugba Demilade Olawale"
+full_name = "Oladugba Demilade"
 ID = "HNG-00976"
 language = "Python"
 email = "demiladeoladugba@gmail.com"
