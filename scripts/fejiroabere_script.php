@@ -7,7 +7,7 @@
      * variable language is the language I used to write this code
      * 
      */
-    $name = "Abere Oghenefejiro Stephanie";
+    $name = "Abere Oghenefejiro";
     $ID = "HNG-02591";
     $email = "aberefejiro@gmail.com";
     $language = "PHP";
@@ -20,5 +20,5 @@
     }
     
     //Output for my function
-    echo intro("Abere Oghenefejiro Stephanie", "HNG-02591", "PHP");
+    echo intro("Abere Oghenefejiro", "HNG-02591", "PHP");
   ?>
