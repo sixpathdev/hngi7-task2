@@ -1,6 +1,6 @@
+const email = 'rakinola90@gmail.com';
 const name = 'Akinola Raphael';
 const hngId = 'HNG-05150';
-const email = 'rakinola90@gmail.com';
 const language = 'javascript';
 
 const output = () => {
