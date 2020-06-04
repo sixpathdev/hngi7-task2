@@ -1,4 +1,5 @@
 
+// My first php scripts for HNGi7 internship
   <?php
           $characterName = "Taiwo Agunbiade";
           $characterNum = "HNG-02166";
