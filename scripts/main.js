@@ -6,7 +6,7 @@
  };
 
 var work = function (){
-	return `Hello world, this is ${details.name} with HNGi7 ID ${details.hngId} and email ${details.email} using ${details.lang} for stage 2 task`
+	return `Hello world, this is ${details.name} with HNGi7 ID ${details.hngId} using ${details.lang} for stage 2 task`
 };
 
 console.log(work());
