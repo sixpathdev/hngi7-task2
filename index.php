@@ -11,12 +11,11 @@ if(isset($_GET['json'])){
        <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> 
-       <link rel="stylesheet" href="style.css">     
-       <title>Document</title>
+        <title>Document</title>
        
      </head>
      <body>
-     <table class="table">
+     <table class="table table-bordered">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -34,7 +33,7 @@ if(isset($_GET['json'])){
       $explode = explode(" ",$output); 
        
       ?>
-    <tr class=<?php echo $valid_output ? 'msg':'wrong';?>>
+    <tr class=<?php echo $valid_output ? 'table-success':'table-danger';?>>
       <th scope="row"><?php echo $sno;?></th>
       <td><?php echo $explode[4];?></td>
       <td><?php echo $valid_output ? $valid_output : $output;?></td>
