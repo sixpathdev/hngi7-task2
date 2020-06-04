@@ -1,7 +1,7 @@
 //jshint esversion:6
+const email = 'nomuojamaro@gmail.com';
 const  name = "Nomuoja Oghenemaro";
 const  hngId = "HNG-06080";
-const email = 'nomuojamaro@gmail.com';
 const  language = 'Javascript';
 
 var output = task(name,hngId,language,email);
