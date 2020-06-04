@@ -33,6 +33,6 @@ fs.writeFile(
       console.error(err);
       return;
     }
-    console.log('The result file has been created');
+    console.log('results.json has been created');
   }
 );
