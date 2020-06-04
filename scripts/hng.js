@@ -1,3 +1,4 @@
+//hng info
 let fullname = 'Abod micheal';
 
 let email = 'abodmicheal@gmail.com';
