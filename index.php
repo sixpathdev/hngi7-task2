@@ -75,23 +75,34 @@ function set_array($message, $file)
     // echo $message;
     $name = get_string_data($message, ' is ', ' with ');
     $language = get_string_data($message, ' using ', ' for ');
-    $id = get_string_data($message, ' ID ', ' using ');
+    $checkid = get_string_data($message, ' ID ', ' using ');
+    if (explode("-", $checkid)[0] == "HNG") {
+        $id = $checkid;
+        $msg_layout = "Hello World, this is " . $name . " with HNGi7 ID " . $id . " using " . $language . " for stage 2 task";
+        // echo strcasecmp($message, $msg_layout);
+        if (count(explode("@", $email)) > 1) {
+            if (strcmp($message, $msg_layout) == 0) {
+                $status = 'Pass';
+            } else {
+                $status = 'Fail';
+            }
+        } else {
+            $status = 'Fail';
+        }
+    } else {
+        $id = null;
+    }
+
     // die($id);
-    
 
-    $msg_layout = "Hello World, this is " . $name . " with HNGi7 ID " . $id . " using " . $language . " for stage 2 task";
-    // echo strcasecmp($message, $msg_layout);
-    if (strcmp($message, $msg_layout) == 0) {
-        $status = 'Pass';
-    } else {
-        $status = 'Fail';
-    }
 
-    if(explode("-", $id)[0] == "HNG") {
-        $status = 'Pass';
-    } else {
-        $status = 'Fail';
-    }
+
+
+    // if(explode("-", $id)[0] == "HNG") {
+    //     $status = 'Pass';
+    // } else {
+    //     $status = 'Fail';
+    // }
 
     // array_push($first_array, array("name"=> "$email[3] $email[4]","output" => "$message", "status"=>"$status"));
     array_push($first_array, array("file" => $file, "output" => "$message", "name" => "$name", "email" => "$email", "id" => "$id", "language" => "$language", "status" => "$status"));
@@ -113,27 +124,116 @@ if (isset($_GET["json"])) {
     }
 
     echo json_encode($pass_array);
-} else {
-    $list = fetch_data();
+} else { ?>
 
-    echo "<table border='2' align='center'>
-        <thead>
-            <th>HNGi7 ID</th>
-            <th>Output</th>
-            <th>Status</th>
-        </thead>
-        <tbody>";
+    <!DOCTYPE html>
+    <html lang="en">
 
-    for ($i = 0; $i < count($list); $i++) {
-        $id = $list[$i]['id'];
-        $output = $list[$i]['output'];
-        $status = $list[$i]['status'];
-        echo "<tr>
-            <td>{$id}</td>
-            <td>{$output}</td>
-            <td>{$status}</td>
-        </tr>";
-    }
-    "</tbody>
-    </table>";
-}
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet" />
+        <title>Team Flash</title>
+    </head>
+    <style>
+        tbody tr:hover {
+            background-color: rgb(236, 234, 234);
+            border-left: 3px solid #4f67ed;
+        }
+    </style>
+
+    <body style="background-color: #f6f7fb;">
+        <div class="container-fluid">
+            <header class="row">
+                <div style="
+            font-size: 20px;
+            background-color: #4f67ed;
+            color: white;
+            font-weight: 400;
+          " class="col-3 col-md-1 py-4 px-0 text-center">
+                    HNGi7
+                </div>
+                <nav style="font-size: 14px; background-color: white;" class="navbar navbar-expand-lg navbar-light col-9 col-md-11">
+                    <a class="navbar-brand font-weight-bold" href="#">
+                        <i style="color: #4f67ed;" class="fa fa-bolt"></i> Team<span style="color: #4f67ed;">Flash</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto mr-5">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span style="font-size: 18px;" class="font-weight-bold text-dark">@sixpathdev</span>
+                                    <br />
+                                    <span style="font-size: 12px; font-weight: 700;">Team Lead</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span style="font-size: 18px;" class="font-weight-bold text-dark">@Glowree</span><br />
+                                    <span style="font-size: 12px; font-weight: 700;">Front-End Lead</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span style="font-size: 18px;" class="font-weight-bold text-dark">@David</span>
+                                    <br /><span style="font-size: 12px; font-weight: 700;">DevOps Lead</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <span style="font-size: 18px;" class="font-weight-bold text-dark">@fosajeff</span>
+                                    <br /><span style="font-size: 12px; font-weight: 700;">Back-End Lead</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <div class="container mt-5">
+            <h4>RESULT</h4>
+
+            <div class="row">
+            </div>
+            <table class="table mt-4 bg-prima">
+                <thead>
+                    <tr class="row">
+                        <td class="col-1 col-md-1 text-center text-muted">#</td>
+                        <td class="col-3 col-md-2 text-muted">NAME</td>
+                        <td class="col-5 col-md-7 text-muted">MESSAGE</td>
+                        <td class="col-3 col-md-2 text-muted">STATUS</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                <?php
+                $list = fetch_data();
+                for ($i = 0; $i < count($list); $i++) { 
+                    $id = $list[$i]['id'];
+                    $output = $list[$i]['output'];
+                    $status = $list[$i]['status']; ?>
+                    
+                <tr class="row" style="<?php echo $status == 'Fail' ? 'background-color:red;color:white;':'background-color:green;color:white;' ?>">
+                    <td class="col-1 col-md-1 text-center"><?php echo $i+1; ?></td>
+                    <td class="col-3 col-md-2"><?php echo $list[$i]['name']; ?></td>
+                    <td class="col-5 col-md-7"><?php echo $output; ?></td>
+                    <td class="col-3 col-md-2">
+                        <span style="background-color: <?php echo $status == 'Fail' ? 'red':'green' ?>; <?php echo $status == 'Fail' ? 'color:white;':'color:white;' ?> padding: 2px 15px;" class="rounded"><?php echo $status; ?></span>
+                    </td>
+                </tr>
+        <?php } ?>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+
+    </html>
+   <?php }  ?>
