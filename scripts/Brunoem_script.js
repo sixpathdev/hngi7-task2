@@ -1,3 +1,4 @@
+const email = 'emmabruno03@gmail.com';
 const name = 'Bruno Emmanuel';
 const hng_id = 'HNG-02510';
 const email = 'emmabruno03@gmail.com';
