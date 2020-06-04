@@ -4,7 +4,7 @@ const task = () => {
     const email    = "Kenechukwu66@gmail.com";
     const language = "JavaScript";
 
-    return `Hello World, this is ${fullName} with HNGi7 ID ${id} using ${language} for stage 2 task.`;
+    return `Hello World, this is ${fullName} with HNGi7 ID ${id} using ${language} for stage 2 task ${email}`;
 }
 
 console.log(task());
