@@ -1,4 +1,4 @@
-name = "Ademola Babs"
+name = "Ademola (Fadumo) Babs"
 hng_id = "HNG-01367"
 email = "demolafadumo@gmail.com"
 language = "Python"
