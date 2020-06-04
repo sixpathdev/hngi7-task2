@@ -3,6 +3,6 @@ const fullName = 'Ockiya Beinmonyu Daniel';
 const id = 'HNG-05057';
 const email = 'annonbytes@gmail.com'
 const language = 'JavaScript';
-let internInfo = `Hello World, this is ${fullName} with HNGi7 ID ${id} using ${language} for stage 2 task.`;
+let internInfo = `Hello World, this is ${fullName} with HNGi7 ID ${id} using ${language} for stage 2 task email ${email}.`;
 
 console.log(internInfo);
