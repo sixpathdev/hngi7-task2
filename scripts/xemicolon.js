@@ -1,12 +1,12 @@
 const details = {
-  fullName: "Agunloye Oluwatobiloba Light",
-  hng_id: "HNG-02614",
+  name: "Agunloye Oluwatobiloba Light",
   email: "jgetitdonefast@gmail.com",
+  id: "02614",
   language: "Javascript",
 };
 
 function helloWorld() {
-  let output = `Hello world, this is ${details.fullName} with HNGi7 ID ${details.hng_id} using ${details.language} for the stage 2 task.`;
+  let output = `Hello World, this is ${details.name} with HNGi7 ID ${details.id} using ${details.language} for stage 2 task`;
   console.log(output);
 }
 
