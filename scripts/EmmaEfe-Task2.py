@@ -1,4 +1,3 @@
-email = "mrefe2017@gmail.com"
 myName = "Emmanuel Efe"
 hngboard_id = "HNG-05454"
 email = "mrefe2017@gmail.com"
