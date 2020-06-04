@@ -1,10 +1,11 @@
-const email = 'rakinola90@gmail.com';
-const name = 'Akinola Raphael';
+const emailAddress = 'rakinola90@gmail.com';
+const fullName = 'Akinola Raphael';
 const hngId = 'HNG-05150';
-const language = 'javascript';
+const languageUsed = 'javascript';
 
-const output = () => {
-	return `Hello World, this is ${name} with HNGi7 ID ${hngId} using ${language} for stage 2 task email ${email}`
+const myFuction = () => {
+	const output = `Hello World, this is ${fullName} with HNGi7 ID ${hngId} using ${languageUsed} for stage 2 task email ${emailAddress}`;
+	console.log(output)
 }
 
-console.log(output())
+console.log(myFuction())
