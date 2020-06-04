@@ -1,5 +1,6 @@
 let fullName = 'Mebuiefene Tefe Glory';
 let id = 'HNG-02840';
+let email = 'tefeglowree@yahoo.com'
 let language = 'JavaScript';
 let output = `Hello World, this is ${fullName} with ${id} using ${language} to solve stage 2 task.`;
 
