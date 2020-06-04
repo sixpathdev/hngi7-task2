@@ -8,6 +8,6 @@
 - Use the checkout command(if you make use of Gitbash) or Change your branch to **test** branch(Very Important):point_left:
 - Head on to the **scripts** folder then do the following:
   - Then create a new file with your preferred language
-  - This file would contain a statement that returns "Hello World, this is [yourfull-name] with HNGi7 ID [yourID] and email [youremail] using [language] for stage 2 task"
+  - This file would contain a statement that returns "Hello World, this is [yourfull-name] with HNGi7 ID [yourID] using [language] for stage 2 task"
 - Add and commit your script file with a preferred message then push
 - Go back to the remote repository and create a pull request
