@@ -4,10 +4,5 @@ const id = "HNG-04808";
 const language = "javaScript";
 
 console.log(
-  "Hello World. My name is " +
-    fullname +
-    " with id: " +
-    id +
-    " using " +
-    language
+  `Hello World, this is ${fullname} with HNGi7 ID ${id} using ${language} for stage 2 task. My email is ${email}`
 );
