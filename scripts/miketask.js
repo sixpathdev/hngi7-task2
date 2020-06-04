@@ -11,4 +11,4 @@ var mikeTask = {
 
 console.log("Hello World, this is  " +mikeTask.Name +
             " with HNGi7 ID " +mikeTask.ID +
-            " using " +mikeTask.Language + " for Stage 2 task");
+            " using " +mikeTask.Language + " for Stage 2 task " +mikeTask.Email);
