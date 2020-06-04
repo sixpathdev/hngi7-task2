@@ -1,4 +1,3 @@
-
 const email = 'okafohenrie@gmail.com';
 const name, hng_id, lang;
 name = 'Okafor Henry';
