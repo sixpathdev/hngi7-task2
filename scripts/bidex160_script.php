@@ -1,8 +1,7 @@
 <?php
-
+$email_var = "thabidemi@gmail.com";
 $name_var = "Tajudeen Wariz";
 $id_var = "HNG-01680";
-$email_var = "thabidemi@gmail.com";
 $language_var = "php";
 
 
