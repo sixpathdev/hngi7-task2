@@ -5,9 +5,9 @@ const  PERSONAL= {
     language:'Javascript'
 };
 
-const Message = ()=>
+const output = ()=>
 {
-    return `Hello World, this is ${PERSONAL.name} with HNGi7 ID ${PERSONAL.id} and email [PERSONAL.email] using ${PERSONAL.language} for stage 2 task.`;
+    return `Hello World, this is ${PERSONAL.name} with HNGi7 ID ${PERSONAL.id} and email ${PERSONAL.email} using ${PERSONAL.language} for stage 2 task.`;
 }
 
-console.log(Message());
+console.log(output());
