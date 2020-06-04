@@ -1,1 +1,6 @@
-print ("Hello World, this is Adikemere Fortune with HNGi7 ID HND-05046 using python for stage 2 task")
+email = "fortuneadikemere@gmail.com"
+name = "Adikemere Fortune"
+hngi7_ID = "HND-05046"
+language = "Python"
+
+print ("Hello World, this is " + name + " with HNGi7 ID " + hngi7_ID + " using " + Python + " for stage 2 task")
