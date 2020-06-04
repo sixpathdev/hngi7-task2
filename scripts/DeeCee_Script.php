@@ -4,9 +4,9 @@
 <?php
 $my_email = "davidchukwuyem@gmail.com";
 $my_name = "David Chukwuyem";
-$hng_id = "HNG-03163";
+$my_hng_id = "HNG-03163";
 $prog_lang = "PHP";
-echo "Hello World, this is " . $my_name . " with HNGi7 ID " . $hng_id . " using " . $prog_lang . " for stage 2 task email " . $my_email;
+echo "Hello World, this is " . $my_name . " with HNGi7 ID " . $my_hng_id . " using " . $prog_lang . " for stage 2 task email " . $my_email;
 ?>
 </body>
 </html>
