@@ -1,13 +1,5 @@
-const myDetails =() =>{
-	const info ={
-		fullName : "ANASHIE MATILDA IPEH",
-		HngId: "HNG-06306",
-		language: "javascript",
-		email: "matildaipeh@gmail.com",
-		status: "pass",
-	}
-
-	return 'Hello World! This is' + "" + info.fullName + "" + 'with Hngi7 ID' + info.HngId + "" + 'using' + info.language + "" + 'for stage 2 task.';
+const name = "ANASHIE MATILDA IPEH",
+const Hng_Id = "HNG-06306",
+const email = "matildaipeh@gmail.com",
 	
-}
- console.log(myDetails());
+console.log('Hello World, this is ${name} with HNGi7 ID ${hng_id} for stage 2 task');
