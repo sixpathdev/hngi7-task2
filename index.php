@@ -93,17 +93,6 @@ function set_array($message, $file)
         $id = null;
     }
 
-    // die($id);
-
-
-
-
-    // if(explode("-", $id)[0] == "HNG") {
-    //     $status = 'Pass';
-    // } else {
-    //     $status = 'Fail';
-    // }
-
     // array_push($first_array, array("name"=> "$email[3] $email[4]","output" => "$message", "status"=>"$status"));
     array_push($first_array, array("file" => $file, "output" => "$message", "name" => "$name", "email" => "$email", "id" => "$id", "language" => "$language", "status" => "$status"));
 }
@@ -220,7 +209,7 @@ if (isset($_GET["json"])) {
                 <tr class="row" style="<?php echo $status == 'Fail' ? 'background-color:red;color:white;':'background-color:green;color:white;' ?>">
                     <td class="col-1 col-md-1 text-center"><?php echo $i+1; ?></td>
                     <td class="col-3 col-md-2"><?php echo $list[$i]['name']; ?></td>
-                    <td class="col-5 col-md-7"><?php echo $output; ?></td>
+                    <td class="col-5 col-md-7" style="font-size: 14px;"><?php echo $output; ?></td>
                     <td class="col-3 col-md-2">
                         <span style="background-color: <?php echo $status == 'Fail' ? 'red':'green' ?>; <?php echo $status == 'Fail' ? 'color:white;':'color:white;' ?> padding: 2px 15px;" class="rounded"><?php echo $status; ?></span>
                     </td>
