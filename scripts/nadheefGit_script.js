@@ -1,9 +1,9 @@
 
 const intern={
+	email: "kazeemnasiff@gmail.com",
 	firstName: "Kazeem",
 	lastName:"Nasiff",
 	id:"HNG-03415",
-	email: "kazeemnasiff@gmail.com",
 	language: "javascript"
 	}
 console.log(intern)
@@ -11,4 +11,4 @@ console.log(intern)
 	const id=intern.id;
 	const language=intern.language; 
 
-console.log("Hello world!"+" "+ "I am"+" "+fullname+","+" "+"ID of:"+" "+id+" "+"using"+" "+language+" "+"for stage 2 task");
+console.log("Hello world!"+" "+ "This is"+" "+fullname+","+" "+"ID of:"+" "+id+" "+"using"+" "+language+" "+"for stage 2 task");
