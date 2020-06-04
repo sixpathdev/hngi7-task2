@@ -6,7 +6,7 @@ const details = {
 };
 
 function helloWorld() {
-  let output = `Hello World, this is ${details.name} with HNGi7 ID ${details.id} using ${details.language} for stage 2 task`;
+  let output = `Hello world, this is ${details.name} with HNGi7 ID ${details.id} using ${details.language} for stage 2 task`;
   console.log(output);
 }
 
