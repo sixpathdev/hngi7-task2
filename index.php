@@ -1,22 +1,9 @@
 
 <?php
 if(isset($_GET['json'])){
-
+ //store file data
   $output = [];
-
-  $directory = __DIR__.'/scripts';
-
-    if (!is_dir($directory)) {
-        exit('Invalid diretory path');
-    }
-
-    // $files = array();
-    foreach (scandir($directory) as $file) {
-        if ($file !== '.' && $file !== '..') {
-            // $files[] = $file;
-            exec('curl http://localhost/hngi7-task2/scripts/'.$file,$outputs);
-        }
-    }
+  require_once('process.php');
     ?>
       <!DOCTYPE html>
      <html lang="en">
@@ -41,6 +28,7 @@ if(isset($_GET['json'])){
   <tbody>
     <?php
     $sno = 1;
+    // loop through stored data
     foreach($outputs as $output){
       $valid_output = json_decode($output);
       $explode = explode(" ",$output); 
@@ -59,6 +47,7 @@ if(isset($_GET['json'])){
     </body>
     </html>
   <?php 
+  
   flush();
 }
 ?>
