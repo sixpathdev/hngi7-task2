@@ -1,0 +1,17 @@
+create an index.php file
+
+index file runs exec on script folder
+
+index reads all the file data in script folder
+
+Every file or script in folder should return a json output to pass
+sample json is "Hello World, this is $fullname with $HNGID using $language for stage 2 task"
+
+endpoint url is =>  host/index.php?json
+
+The index should output html
+
+# Name Message Status
+
+status == pass if file returns json else fail
+index out put should be streamed or flush
