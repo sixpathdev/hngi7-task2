@@ -1,6 +1,6 @@
+let email = "wisdomosara@gmail.com";
 let name = "Osara Wisdom";
 let id = "HNG-04550";
-let email = "wisdomosara@gmail.com"
 let language = "JavaScript";
 
 function getGreeting(){
