@@ -1,10 +1,9 @@
 const name = "Olumuyiwa Adeniyi";
-const hng_id = "HNG-06622";
-const language = "Javascript";
+const id = "HNG-06622";
 const email = "oadeniyi45@gmail.com";
 
-function myHngDetails() {
-    return `Hello World, this is ${name} with HNGi7 ID ${hng_id} using ${language} for stage 2 task.`;
+function statement() {
+    return "Hello World, this is " + name + " with HNGi7 ID " + id + " using javascript for stage 2 task";
 }
 
-console.log(myHngDetails());
+console.log(statement());
