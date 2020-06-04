@@ -1,0 +1,12 @@
+ var details = {
+ 	name : "Abdullahi Luqman" ,
+ 	email : "luqmonac56@gmail.com", 
+ 	lang : "javascript",
+ 	hngId : "HNG-03395",
+ };
+
+var work = function (){
+	return `Hello world, this is ${details.name} with HNGi7 ID ${details.hngId} and email ${details.email} using ${details.lang} for stage 2 task`
+};
+
+console.log(work());
