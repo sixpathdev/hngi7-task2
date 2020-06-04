@@ -1,7 +1,6 @@
-name = "Emmanuel Efe"
-hngboard_id = "HNGi7-05454"
 email = "mrefe2017@gmail.com"
+myName = "Emmanuel Efe"
+hngboard_id = "HNG-05454"
 language = "Python"
 
-print"Hello World," this is "name" with "hngboard_id" using "language" for stage 2 task
-Your hngID is the HNG-537784 "
+print ("Hello World, this is " + myName " with with HNGi7 ID " + hngboard_id + " using " + language + " for stage 2 task ")
