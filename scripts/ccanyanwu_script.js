@@ -10,4 +10,4 @@ const email = 'eme42c@gmail.com';
    return `Hello World, this is ${name} with HNGi7 ID ${id} using ${lang} for stage 2 task`;
  }
  //prints this output to the browser
-document.write(myDetails());
+console.log(myDetails());
