@@ -21,7 +21,7 @@ var resultObject = {
     dataObject.iD +
     ' using ' +
     dataObject.language +
-    ' for stage 2 task email ' + data object.email,
+    ' for stage 2 task email ' + dataObject.email,
   status: 'Pass',
 };
 
