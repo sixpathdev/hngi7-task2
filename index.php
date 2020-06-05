@@ -30,22 +30,25 @@ if (isset($_GET["json"])) {
     echo json_encode($pass_array);
 } else { 
     
-    //get the current page number
+//get the current page number
     $page = isset($_GET["page"]) ? $_GET(["page"]) : 1;
+
+    // length of files we want per page
+    $length = 50;
     
     $files_length = count($files);
     //calculate the start and end
-    $start = ($page - 1) * 100;
-    $end = $start + 100;
+    $start = ($page - 1) * $length;
+    $end = $start + $length;
     
     $has_previous = $start > 0;
     $has_next = count($files) > $end;
     
-    $next_link = $has_next ? "/?page=".$page + 1 : "";
-    $prev_link= $has_previous ? "/?page=".$page - 1;
+    $next_link = $has_next ? "?page=".($page + 1) : "";
+    $prev_link= $has_previous ? "?page=".($page - 1) : "";
     
     //splice the array to get the required section
-    array_slice($files, $start, $end);
+    $files = array_slice($files, $start, $end);
    ?>
 
     <!DOCTYPE html>
