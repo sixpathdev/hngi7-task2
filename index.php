@@ -2,7 +2,9 @@
 // Comment the line below to see error messages
 error_reporting(0);
 
+
 include("function.php");
+
 
 $baseDir = 'scripts';
 $files = scandir($baseDir, 1);
