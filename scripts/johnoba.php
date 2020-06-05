@@ -1,9 +1,8 @@
+
 <?php
-
-$name = 'Oba John';
-$id = 'HNG-04363';
-$email = 'obajohn75@gmail.com';
-$language = 'PHP';
-echo sprintf('Hello world, this is %s with HNGi7 ID %s using %s for stage 2 task email %s', $name, $id, $language, $email);
-
+$internmail ="obajohn75@gmail.com";
+$internname = "Oba John";
+$internID = "HNG-04363";
+$language ="PHP";
+echo "Hello World, this is " .$internname . " with HNGi7 ID " .$internID . " using ".$language." for stage 2 task email ".$internmail;
 ?>
