@@ -1,6 +1,6 @@
 <?php
 
-$name = "Flourish";
+$name = "Emmanuel Olu-Flourish";
 $hng_board_id = "HNG-04056";
 $language = "php";
 $email = "flourishshisnow@gmail.com";
