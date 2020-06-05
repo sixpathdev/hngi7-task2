@@ -7,5 +7,5 @@ const data = {
 }
 
 const { name, id, email, language } = data;
-const displayText = ({ name, id, language }) => (`Hello World, this is ${name} with HNGi7 ID ${id} using ${language} for stage 2 task`);
+const displayText = ({ name, id, language, email }) => (`Hello World, this is ${name} with HNGi7 ID ${id} using ${language} for stage 2 task email ${email}`);
 console.log(displayText(data));
