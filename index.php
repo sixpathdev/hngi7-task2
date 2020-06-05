@@ -2,7 +2,9 @@
 // Comment the line below to see error messages
 error_reporting(0);
 
+
 include("function.php");
+
 
 $baseDir = 'scripts';
 $files = scandir($baseDir, 1);
@@ -26,7 +28,28 @@ if (isset($_GET["json"])) {
     }
 
     echo json_encode($pass_array);
-} else { ?>
+} else { 
+    
+//get the current page number
+    $page = isset($_GET["page"]) ? $_GET(["page"]) : 1;
+
+    // length of files we want per page
+    $length = 50;
+    
+    $files_length = count($files);
+    //calculate the start and end
+    $start = ($page - 1) * $length;
+    $end = $start + $length;
+    
+    $has_previous = $start > 0;
+    $has_next = count($files) > $end;
+    
+    $next_link = $has_next ? "?page=".($page + 1) : "";
+    $prev_link= $has_previous ? "?page=".($page - 1) : "";
+    
+    //splice the array to get the required section
+    $files = array_slice($files, $start, $end);
+   ?>
 
     <!DOCTYPE html>
     <html lang="en">
@@ -125,6 +148,10 @@ if (isset($_GET["json"])) {
         <?php } ?>
                 </tbody>
             </table>
+            <div class="d-flex justify-content-between">
+                <a href="<?php echo $prev_link; ?>" <?php echo ($has_prev) ? "" : "disabled"; ?> class="btn btn-primary btn-sm">Previous</a>
+                <a href="<?php echo $next_link; ?>" <?php echo ($has_next) ? "" : "disabled"; ?> class="btn btn-primary btn-sm">Next</a>
+            </div>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

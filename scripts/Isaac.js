@@ -1,5 +1,5 @@
-const name= "Isaac John";
-let email="izik4004@gmail.com"
+let name= "Isaac John";
+let email="izik4004@gmail.com";
 let hngid= "HNG-04381";
 let language="javascript"
 
