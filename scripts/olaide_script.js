@@ -5,7 +5,7 @@ const hng_id = "HNG-01638";
 const language = "JavaScript";
 
 function myMessage() {
-    return `Hello World, this is ${name} with HNGi7 ID ${hng_id} using ${language} for stage 2, email - ${email}`
+    return `Hello World, this is ${name} with HNGi7 ID ${hng_id} using ${language} for stage 2 email  ${email}`
 }
 
 console.log(myMessage());
