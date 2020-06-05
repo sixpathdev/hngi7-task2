@@ -1,6 +1,7 @@
+
+var email = 'toungbeyide9@gmail.com'
 var name = 'Olaide Gbeyide'
 var hng_id =  'HNG-01638'
-var email = 'toungbeyide9@gmail.com'
 var language = 'JavaScript'
 
 
