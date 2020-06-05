@@ -114,9 +114,9 @@ if (isset($_GET["json"])) {
                     $status = $list[$i]['status']; ?>
 
 <tr class="row">
-    <td class="col-1 col-md-1 text-center"><?php echo $i + 1; ?></td>
-    <td class="col-3 col-md-2"><?php echo $list[$i]['name']; ?></td>
-    <td class="col-5 col-md-7" style="font-size: 14px;"><?php echo $output; ?></td>
+    <td class="col-1 col-md-1 text-center" style="background: white;"><?php echo $i + 1; ?></td>
+    <td class="col-3 col-md-2" style="background: white;"><?php echo $list[$i]['name']; ?></td>
+    <td class="col-5 col-md-7" style="background: white;font-size: 14px;"><?php echo $output; ?></td>
     <td class=" col-3 col-md-2 text-center" style="background-color: <?php echo $list[$i]['status'] == 'Fail' || $list[$i]['status'] == '' ? 'red' : 'green' ?>; <?php echo $status == 'Fail' ? 'color:white;' : 'color:white;' ?> padding: 2px 15px;">
         <span><?php echo $status == '' ? 'Fail' : $status ?></span>
     </td>
