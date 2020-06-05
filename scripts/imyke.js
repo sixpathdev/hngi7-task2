@@ -1,8 +1,9 @@
-const name = "Michael Olatunji";
-const hngId = "HNG-05739";
-const email = "tundexmike@gmail.com";
-const language = "Language";
-const output = `Hello World, this is ${name} with HNGi7 ID ${hngId} using ${language} for stage 2 task email ${email} `;
+const data = {
+  name: "Michael Olatunji",
+  hngId: "HNG-05739",
+  email: "tundexmike@gmail.com",
+  language: "JavaScript",
+};
 
-const result = () => output;
-console.log(result());
+const output = `Hello World, this is ${data.name} with HNGi7 ID ${data.hngId} using ${data.language} for stage 2 task email ${data.email}`;
+console.log(output);
