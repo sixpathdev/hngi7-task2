@@ -3,5 +3,5 @@ var hngID = "HNG-03805";
 var email = "ukokjnr@gmail.com"
 var language = "Javascript";
 
-console.log(`Hello World, this is ${fullName} with HNGi7 ID ${hngID} using ${language} for stage 2 task`)
+console.log(`Hello World, this is Victor Ukok with HNGi7 ID HNG-03805 using Javascript for stage 2 task`)
 
