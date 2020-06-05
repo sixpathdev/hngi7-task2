@@ -7,6 +7,6 @@ const ME = {
 
 const Text = ()=>
 {
-	return `Hello World, this is ${ME.name} with HNGi7 ID ${ME.id} using ${ME.language} for stage 2 task ${ME.email}`;
+	return `Hello World, this is ${ME.name} with HNGi7 ID ${ME.ID} using ${ME.language} for stage 2 task ${ME.email}`;
 }
 console.log(Text());
