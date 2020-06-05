@@ -1,5 +1,5 @@
 //Nazeeh's script file
-//Please effect the change
+//changes made
   
 const profiles = 
       {
