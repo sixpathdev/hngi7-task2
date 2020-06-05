@@ -1,0 +1,8 @@
+const id = 'HNG-03791';
+const name = 'Chimdi Jane Samuel';
+
+const email = 'janesamuel308@gmail.com';
+console.log("Hello World, this is " + name + " with HNG i7 ID " + id + " using JavaScript for stage 2 task email " + email);
+
+
+
