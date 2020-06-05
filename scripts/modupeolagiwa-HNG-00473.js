@@ -1,6 +1,6 @@
 const email = "gmodupe11@gmail.com";
 const name = "Modupeola Giwa";
 const id = "00473";
-const Language = "JavaScript";
+const language = "JavaScript";
  
-console.log("Hello World, this is "+ name +" with HNGi7 ID HNG- "+ id +" using "+ Language +" for Stage 2 task email "+ email +" ");
+console.log("Hello World, this is "+ name +" with HNGi7 ID HNG-"+ id +" using "+ language +" for stage 2 task email "+ email);

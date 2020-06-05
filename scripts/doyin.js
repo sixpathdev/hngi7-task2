@@ -1,5 +1,5 @@
 const email     =   'didoloan@gmail.com';
-const fullname  =   'Awosanya Awosanya';
+const fullname  =   'Adedoyin Awosanya';
 const hngid     =   'HNG-02674';
 const language  =   'JavaScript';
 
