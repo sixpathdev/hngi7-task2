@@ -1,4 +1,4 @@
-let name= "Alex Favour";
+let name= "Alex favour";
 let email="favouralex084@gmail.com"
 let hngid= "HNG_02158";
 let language="javascript"
