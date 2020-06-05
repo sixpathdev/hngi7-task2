@@ -6,7 +6,7 @@ class Intern:
         self.email = email
 
     def __repr__(self):
-        return f'Hello World, this is {self.name} with HNGi7 ID {self.board_id} using {self.script} for stage 2 task and {self.email}'
+        return f'Hello World, this is {self.name} with HNGi7 ID {self.board_id} using {self.script} for stage 2 task email {self.email}.'
 
 
 samad = Intern(name="Adeleke Abdulsamad",
