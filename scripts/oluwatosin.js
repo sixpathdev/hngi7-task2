@@ -1,6 +1,6 @@
 const getdetails = () => {
     const details = {
-        name: "Oluwatosin Oladimeji Oladokun",
+        name: "Oluwatosin Oladokun",
         hngid: "HNG-03984",
         email: "tosinoladokun3@gmail.com",
         language: "javascript"
