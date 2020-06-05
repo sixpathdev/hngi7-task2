@@ -1,5 +1,5 @@
-const NAME = "Richard Omotosho"
 const EMAIL = "ricardiomotosho@gmail.com"
+const NAME = "Richard Omotosho"
 const ID = "HNG-03176"
 const LANG = "JavaScript"
 
