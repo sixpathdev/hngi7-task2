@@ -4,7 +4,7 @@
   $name = "CHIJINDU MAVIS";
   $id = "HNGi7 ID-03664";
   $language = "php";
-echo 'Hello World, this is  ' . $name  . ' with  ' . $id  . ' using ' .$language  . ' for stage 2 task email '. $email."";
+echo "Hello World, this is $name with HNGi7 ID $id using $language for stage 2 task email $email";
 
 ?>
 
