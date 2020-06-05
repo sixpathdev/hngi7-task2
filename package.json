@@ -1,0 +1,8 @@
+{
+  "name": "team-flash-hngi7",
+  "description": "team flash project",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  }
+}
