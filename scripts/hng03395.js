@@ -8,4 +8,4 @@
 var work = function (){
 	return `Hello World, this is ${details.name} with HNGi7 ID ${details.hngId} using ${details.lang} for stage 2 task email ${details.email}`
 };
-console.l
+console.log(work());
