@@ -1,5 +1,5 @@
 const emailAddress = "atandadave@gmail.com";
-const myName = "David Atanda";
+const myName = "Atanda David";
 const myId = "HNG-04072";
 const languageUsed = "JavaScript";
 
