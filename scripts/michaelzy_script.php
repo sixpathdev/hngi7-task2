@@ -1,5 +1,5 @@
 <?php
-$myname = "Umeh Nnaemeka Michael";
+$myname = "Umeh Nnaemeka";
 
 $myid = "HNG-02364";
 
