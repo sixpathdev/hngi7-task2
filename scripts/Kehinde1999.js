@@ -14,6 +14,6 @@ const email= "oyewalekehinde34@gmail.com";
 
 //output
 
-console.log(`Hello World, this is ${fName} ${lName} with HNGi7 ID ${hngId} using ${language} for stage 2 task. ${email}`);
+console.log(`Hello World, this is ${fName} ${lName} with HNGi7 ID ${hngId} using ${language} for stage 2 task email ${email}`);
 
-© 2020 GitHub, Inc.
+
