@@ -8,8 +8,8 @@ const output = () => {
   return (
     "Hello world, this is " +
     info.fullName +
-    " with HNG ID " +
-    info.hngid +
+    " with HNGi7 ID " +
+    info.hngId +
     " using " +
     info.language +
     " for stage 2 task email " +
