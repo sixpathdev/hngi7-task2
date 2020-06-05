@@ -1,6 +1,6 @@
 <?php
 $email = "aliu.yusuf@outlook.com";
-$name = 'Ololade-Yusuf';
+$name = 'Ololade Yusuf';
 $hngid = 'HNG-04383';
 $language = 'PHP';
 
