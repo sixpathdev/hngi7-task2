@@ -1,5 +1,3 @@
-# This is my HNG TASK 2
-
 name = "Chucks OGWO"                         # Write my full name
 hng_id = "HNG-02956"                         # Write my HNGi7 ID
 language = "Python"                          # The_language
