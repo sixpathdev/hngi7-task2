@@ -1,9 +1,9 @@
 <?php
 
-$name = "Alex Okwach Hongo";
-$id = "HNG-00787";
-$mail = "alexokwach@gmail.com";
-$lang = "php";
+$myname = "Alex Okwach Hongo";
+$myid = "HNG-00787";
+$mymail = "alexokwach@gmail.com";
+$mylang = "php";
 
-echo "Hello World, this is $name :HNGi7 ID $myid using $lang for stage 2 task email $myemail";
+echo "Hello World, this is $myname :HNGi7 ID $myid using $mylang for stage 2 task email $mymail";
 ?>
