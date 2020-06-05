@@ -1,6 +1,6 @@
-let myEmail = "lkalalizi@gmail.com";
-let myName = "Lablonde Kalalizi";
+let name = "Lablonde Kalalizi";
 let hngi7_id ="HNG-03269";
+let email = "lkalalizi@gmail.com";
 let language = "JavaScript";
 
-console.log(`Hello world, this is ${myName} with HNGi7 ID ${hngi7_id} using ${language} for task 2 task email ${myEmail}`);
+console.log(`Hello World, this is ${name} with HNGi7 ID ${hngi7_id} using ${language} for stage 2 task email ${email}`);
