@@ -3,4 +3,4 @@
 +const email = "enochowoeye001@gmail.com";
 +const language = "PHP";
 +const status = "Pass"
-+console.log("Hello World, this is +name with HNGi7 ID HNG- "id" using + Language for Stage 2 task +email"
++console.log("Hello World, this is +name with HNGi7 ID HNG- "id" using + Language for Stage 2 task"
