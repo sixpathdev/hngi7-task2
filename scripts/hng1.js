@@ -6,7 +6,7 @@ const output = () => {
     language: "javascript",
   };
   return (
-    "Hello world, this is " +
+    "Hello  World, this is " +
     info.fullName +
     " with HNGi7 ID " +
     info.hngId +
