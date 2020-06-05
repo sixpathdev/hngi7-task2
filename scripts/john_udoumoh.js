@@ -1,7 +1,6 @@
-// Variables
 var name = "John David Udoumoh";
-var ID = "HNG-01698";
+var hng_id = "HNG-01698";
 var email = "johnudoumoh63@gmail.com";
 var language = "javascript";
-
-    console.log(`Hello world, this is ${name} with HNGI7 ID: ${ID} and email ${email} using ${language} for stage 2 task`);
+var output = `Hello World, this is ${name} with HNGi7 ID ${hng_id} using ${language} for stage 2 task email ${email}` ;
+console.log(output);
