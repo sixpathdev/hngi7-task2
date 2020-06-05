@@ -1,10 +1,10 @@
-EMAIL= "Ofodum101@gmail.com"
+email= "Ofodum101@gmail.com"
 
-NAME = "Ofodum Ogechukwu"
+name = "Ofodum Ogechukwu"
 
-ID = "HNG-04571"
+id= "HNG-04571"
 
-LANUAGE= "Python"
+language= "Python"
 
-print("Hello World, this is  "+ NAME + " with HNGi7 ID " + ID + " using " +lANUAGE+ " for stage 2 task. Email "+ EMAIL)
+print("Hello World, this is  "+ name + " with HNGi7 ID " + id + " using " +language + " for stage 2 task. Email "+ email)
 
