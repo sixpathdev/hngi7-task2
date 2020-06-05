@@ -1,7 +1,9 @@
-full_name = "Gerald Izuchukwu Ugwunna"
+full_name = "Gerald Izuchukwu"
 
 hngi7_ID = "HNG-05974"
 
+language = "Python"
+
 email = "geraldlouisugwunna@gmail.com"
 
-print(f'Hello World this is {full_name}, with HNGi7 ID:{hngi7_ID} and email: {email} using python for stage 2 task ')
+print(f'Hello World this is {full_name}, with HNGi7 ID:{hngi7_ID}, email:{email} using {language} language for stage 2 task ')
