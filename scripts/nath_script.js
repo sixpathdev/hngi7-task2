@@ -1,8 +1,7 @@
-const myInfo = () => {
-  const name = "Nathaniel Makinde";
-  const email = "nathmankind@gmail.com";
-  const internship_id = "HNG-01989";
-  const language = "Javascript";
-  return `Hello World, this is ${name} with HNGi7 ID ${internship_id} using ${language} for stage 2 task`;
-};
-console.log(myInfo());
+const name = "Nathaniel Makinde";
+const email = "nathmankind@gmail.com";
+const hng_id = "HNG-01989";
+const language = "Javascript";
+const output = `Hello world, this is ${name} with HNGi7 ID ${hng_id} using ${language} for stage 2 task email ${email}`;
+
+console.log(output);
