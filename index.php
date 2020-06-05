@@ -39,12 +39,6 @@ if (isset($_GET["json"])) {
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet" />
         <title>Team Flash</title>
     </head>
-    <style>
-        tbody tr:hover {
-            background-color: rgb(236, 234, 234);
-            border-left: 3px solid #4f67ed;
-        }
-    </style>
 
     <body style="background-color: #f6f7fb;">
         <div class="container-fluid">
@@ -118,15 +112,16 @@ if (isset($_GET["json"])) {
                     $id = $list[$i]['id'];
                     $output = $list[$i]['output'];
                     $status = $list[$i]['status']; ?>
-                    
-                <tr class="row" style="<?php echo $status == 'Fail' ? 'background-color:red;color:white;':'background-color:green;color:white;' ?>">
-                    <td class="col-1 col-md-1 text-center"><?php echo $i+1; ?></td>
-                    <td class="col-3 col-md-2"><?php echo $list[$i]['name']; ?></td>
-                    <td class="col-5 col-md-7" style="font-size: 14px;"><?php echo $output; ?></td>
-                    <td class="col-3 col-md-2">
-                        <span style="background-color: <?php echo $status == 'Fail' ? 'red':'green' ?>; <?php echo $status == 'Fail' ? 'color:white;':'color:white;' ?> padding: 2px 15px;" class="rounded"><?php echo $status; ?></span>
-                    </td>
-                </tr>
+
+<tr class="row">
+    <td class="col-1 col-md-1 text-center" style="background: white;"><?php echo $i + 1; ?></td>
+    <td class="col-3 col-md-2" style="background: white;"><?php echo $list[$i]['name']; ?></td>
+    <td class="col-5 col-md-7" style="background: white;font-size: 14px;"><?php echo $output; ?></td>
+    <td class=" col-3 col-md-2 text-center" style="background-color: <?php echo $list[$i]['status'] == 'Fail' || $list[$i]['status'] == '' ? 'red' : 'green' ?>; <?php echo $status == 'Fail' ? 'color:white;' : 'color:white;' ?> padding: 2px 15px;">
+        <span><?php echo $status == '' ? 'Fail' : $status ?></span>
+    </td>
+</tr>
+                  
         <?php } ?>
                 </tbody>
             </table>

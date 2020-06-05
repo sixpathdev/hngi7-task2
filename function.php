@@ -52,6 +52,7 @@ function get_email($str)
     $email_index = strpos($str, "email");
     $email_index += strlen("email") + 1;
     $result = substr($str, $email_index);
+    $result = rtrim($result);
 
     // $cut_word = substr($str, 0, $email_index);
     return $result;
