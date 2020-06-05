@@ -1,7 +1,7 @@
  <script>
     var name = "Ibrahim Ajala";
     var ID = "HNG-05288";
-    var mail = "larrybechtel396@gmail.com"
+    var email = "larrybechtel396@gmail.com"
     var lang = "JavaScript";
     
 
