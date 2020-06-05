@@ -4,5 +4,5 @@ const emailAddress = "darehorla@gmail.com";
 const language = "JavaScript";
 
 console.log(
-  `Hello Everyone, my name is ${fullName} my HNGi7 ID ${internshipId} using ${language} for stage 2 task ${emailAddress}`
+  `Hello World, this is ${fullName} with HNGi7 ID ${internshipId} using ${language} for stage 2 task ${emailAddress}`
 );
