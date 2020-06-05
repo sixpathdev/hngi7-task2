@@ -1,7 +1,7 @@
 <?php
         $fullname= "Samson D. Alejolowo";
         $hng_id="HNG-03839";
-        $language="Java";
+        $language="php";
         $status="Pass";
         $email="samsondamilola22@gmail.com";
 
