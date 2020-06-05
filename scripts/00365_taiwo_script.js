@@ -1,6 +1,8 @@
-let name = 'Taiwo Oyewole';
-let id = 'HNG-00365';
-let email_address = 'oyewoletaiwo94@gmail.com';
-let language = 'JavaScript';
-let output = `Hello World, this is ${name} with HNGi7 ID ${id} using ${language} for stage 2 task`;
+const task = { 
+    name: 'Taiwo Oyewole',
+    id: 'HNG-00365',
+    email_address: 'oyewoletaiwo94@gmail.com',
+    language: 'JavaScript'
+}
+const output = `Hello World, this is ${task.name} with HNGi7 ID ${task.id} using ${task.language} for stage 2 task ${task.email_address}`;
 console.log(output);
