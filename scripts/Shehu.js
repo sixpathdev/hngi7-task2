@@ -4,4 +4,4 @@ let myName = "AlliBalogun Shehu";
 let HNGid = "HNG-02278";
 let myLanguage = "javascript";
 
-console.log ("Hello World, this is " + myName + " with HNGi7 ID " + HNGid + " using " + myLanguage + " for stage 2 task email " + myEmail);
+console.log ("Hello World, this is " + myName + " with HNGi7 ID " + HNGid + " using " + myLanguage + " for stage 2 task ");
