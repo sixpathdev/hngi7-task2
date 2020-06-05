@@ -6,5 +6,5 @@
     
 
 document.write("  Hello World, This is  " +    name    + "   with HNGi7 ID   " +   ID    + "  using   " +    lang    + "   for stage 2 task   ");
-console.log("  Hello World, This is  " +    name    + "   with HNGi7 ID   " +   ID    + "  using   " +    lang    + "   for stage 2 task   ");
+console.log("  Hello World, This is  " +    name    + "   with HNGi7 ID   " +   ID    + "  using   " +    lang    + "   for stage 2 task   email   " +    email);
 </script>
