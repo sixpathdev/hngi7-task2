@@ -1,8 +1,8 @@
 // My task for Hng internship to go forward //
 
-let fullName = "Hamza Elessawy";
-let hngId = "03392" ;
 let email = "hamzaelessawy@gmail.com";
+let fullName = "Hamza Elessawy";
+let hngId = "03392";
 let language = "JavaScript";
-let welcomeMessage = "Hello World, this " + fullName + "and My Internship ID is" + hngId + "to contact my email " + email + "the language i used " + language ;
+let welcomeMessage = "Hello World, this is " + fullName + " with HNGi7 ID " + hngId + " using " + language + " for stage 2 task email " + email;
 console.log(welcomeMessage);
