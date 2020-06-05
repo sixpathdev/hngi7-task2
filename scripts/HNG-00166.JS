@@ -7,7 +7,7 @@ let information = () => {
       language : 'JavaScript'
     } 
   
-    return `Hello World, this is ${info.name} with HNGi7 ID ${info.id} using ${info.language} for stage 2 task`;
+    return `Hello World, this is ${info.name} with HNGi7 ID ${info.id} using ${info.language} for stage 2 task, email ${info.email}`;
   }
  
  console.log(information()); 
