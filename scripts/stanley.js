@@ -1,10 +1,10 @@
-const EMAIL = "ugwuchiagoziestanley@gmail.com";
+const email = "ugwuchiagoziestanley@gmail.com";
 
-const STAN_NAME = "ugwu  stanley";
+const stan_name = "ugwu  stanley";
 
-const STAN_ID = "HNG-00556";
+const stan_id = "HNG-00556";
 
 
-const LANGUAGE = "javascript";
+const language = "javascript";
 
-console.log(`Hello world, this is ${STAN_NAME} with HNGi7 ID ${STAN_ID} using ${LANGUAGE} for stage 2 task email ${EMAIL}`);
+console.log(`Hello world, this is ${stan_name} with HNGi7 ID ${stan_id} using ${language} for stage 2 task email ${email}`);
