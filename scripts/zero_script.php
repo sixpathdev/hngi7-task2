@@ -19,7 +19,7 @@ class User {
 
    function __destruct()
    {
-       echo "Hello World, this is " . $this->name . " with HNGi7 ID " . $this->id . " using " . $this->language . " for stage 2 task.";
+       echo "Hello World, this is " . $this->name . " with HNGi7 ID " . $this->id . " using " . $this->language . " for stage 2 task email " . $this->email;
    }
 
 }
