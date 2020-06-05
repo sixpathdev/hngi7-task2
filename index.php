@@ -6,9 +6,9 @@ if(isset($_GET["json"])) {
     // $er = preg_split("/[\s,]+/", $contents);
     // var_dump($er[12]);
 //     // echo($er)[12];
-    
-// } 
-// } 
+
+// }
+// }
 // else {
 
 header('Content-Type: application/json');
