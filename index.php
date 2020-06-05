@@ -62,14 +62,14 @@ if (isset($_GET["json"])) {
                         <ul class="navbar-nav ml-auto mr-5">
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <span style="font-size: 18px;" class="font-weight-bold text-dark">@sixpathdev</span>
+                                    <span style="font-size: 18px;" class="font-weight-bold text-dark">@Zero</span>
                                     <br />
                                     <span style="font-size: 12px; font-weight: 700;">Team Lead</span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <span style="font-size: 18px;" class="font-weight-bold text-dark">@Glowree</span><br />
+                                    <span style="font-size: 18px;" class="font-weight-bold text-dark">@Viviydesign</span><br />
                                     <span style="font-size: 12px; font-weight: 700;">Front-End Lead</span>
                                 </a>
                             </li>
