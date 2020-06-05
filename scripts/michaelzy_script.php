@@ -1,11 +1,11 @@
 <?php
-$name = "Umeh Nnaemeka Michael";
+$myname = "Umeh Nnaemeka";
 
-$id = "HNG-02364";
+$myid = "HNG-02364";
 
-$email = "umehmichael27@gmail.com";
+$myemail = "umehmichael27@gmail.com";
 
-$language = "php";
+$mylanguage = "php";
 
-print "Hello World, this is $name with HNGi7 ID $id using $language for stage 2 task";
+echo "Hello World, this is $myname with HNGi7 ID $myid using $mylanguage for stage 2 task email $myemail";
 ?>
