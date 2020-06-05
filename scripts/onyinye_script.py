@@ -6,4 +6,6 @@ def my_script():
 
     print(f"Hello World, this is {name} with HNGi7 ID {hng_id} using {lang} for stage 2 task email {email}")
 
+my_script()
+
 
