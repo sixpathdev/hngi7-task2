@@ -1,7 +1,9 @@
-const email     = 'alexanderaugustine0@gmail.com';
-const fullname  = 'Alex Augustine';
-const hng_id    = 'HNG-00955';
-const language  = 'JavaScript';
+let email = 'alexanderaugustine0@gmail.com'
+let fullName = 'Alex Augustine';
+let id = 'HNG-00955';
+let language = 'JavaScript';
+let output = `Hello World, this is ${fullName} with HNGi7 ID ${id} using ${language} for stage 2 task email ${email}`;
 
-let output = 'Hello World, this is ' +fullname+ ' with HNGi7 ID '+hng_id+ ' using ' +language+ ' for the stage 2 task email '+email;
+
+
 console.log(output);
