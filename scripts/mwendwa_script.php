@@ -1,9 +1,9 @@
 <?php
+
+$email = "williammwendwa@gmail.com";
 $name = "William Mwendwa";
 
 $id = " HNG-06573";
-
-$email = "williammwendwa@gmail.com";
 
 $language = "php";
 
