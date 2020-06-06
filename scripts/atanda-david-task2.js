@@ -1,8 +1,8 @@
-const theEmail = "atandadave@gmail.com";
-const theName = "Atanda David";
-const theId = "HNG-04072";
+const theemail = "atandadave@gmail.com";
+const thename = "Atanda David";
+const theid = "HNG-04072";
 const thelang = "JavaScript";
 
-const outputLinee = `Hello World, this is ${theName} with HNGi7 ID ${theId} using ${thelang} for stage 2 task email ${theEmail}`;
+const outputlineout = `Hello World, this is ${thename} with HNGi7 ID ${theid} using ${thelang} for stage 2 task email ${theemail}`;
 
-console.log(outputLinee);
+console.log(outputlineout);
