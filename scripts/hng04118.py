@@ -5,8 +5,10 @@ class Intern:
         self.script = script
         self.email = email
 
+    "Hello World, this is [yourfull-name] with HNGi7 ID [yourID] and email [youremail] using [language] for stage 2 task"
+
     def __repr__(self):
-        return f'Hello World, this is {self.name} with HNGi7 ID {self.board_id} using {self.script} for stage 2 task email {self.email}.'
+        return f'Hello World, this is {self.name} with HNGi7 ID {self.board_id} and email {self.email} using {self.script} for stage 2 task'
 
 
 samad = Intern(name="Adeleke Abdulsamad",
