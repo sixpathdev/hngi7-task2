@@ -1,4 +1,4 @@
-const myName = "KACHI";
+const myName = "KAC HI";
 const myBoardId = "HNG-06739";
 const email = "oeneanya99@gmail.com";
 const language = "Javascript";
