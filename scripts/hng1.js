@@ -12,7 +12,7 @@ const output = () => {
     info.hngId +
     " using " +
     info.language +
-    " for stage 2 task email. " +
+    " for stage 2 task email " +
     info.email
   );
 };
