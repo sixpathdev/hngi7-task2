@@ -1,0 +1,1 @@
+cleconsole.log('Hello World, this is Jamiu Ismail Adebayo with HNGi7 ID HNG-04210 using javascript for stage 2 task jamiuismailadebayo@gmail.com');
