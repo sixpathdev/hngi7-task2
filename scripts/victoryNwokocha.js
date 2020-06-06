@@ -1,6 +1,6 @@
 let userInfo = () =>{
     const details ={
-        Name : 'Victory Nwokocha Ozioma',
+        Name : 'Victory Nwokocha',
         hng_Id: 'HNG-05224',
         email_Address: 'nwokochavictory47@gmail.com',
         language: 'Javascript',
