@@ -6,7 +6,7 @@ let userInfo = () =>{
         language: 'Javascript',
     }
 
-    return 'Hello World, this is '  + details.Name  + ' with HNGi7 Id ' + details.hng_Id  + ' using ' + details.language + ' for stage 2 task.' + email_Address;
+    return 'Hello World, this is '  + details.Name  + ' with HNGi7 ID ' + details.hng_ID  + ' using ' + details.language + ' for stage 2 task email ' + details.email_Address;
 }
 
 console.log(userInfo());
