@@ -1,7 +1,7 @@
 info = {
 	'fullname': 'Olisa Jeremiah',
 	'NgId': 'HNG-06753',
-	'email': 'Olisa Jeremiah',
+	'email': 'jeremiaholisa453@gmail.com',
 	'programmingLanguage': 'Python',
 }
 
