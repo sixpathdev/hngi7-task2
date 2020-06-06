@@ -1,5 +1,3 @@
-console.log()
-
 const name = 'Sanyaolu Hasbiyallah';
 
 const id = 'HNG-01932';
