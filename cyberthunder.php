@@ -6,7 +6,7 @@
                 return $output;
             }
              
-             echo  greet_hng("OWOEYE SAMUEL","HNG-02249","PHP","Owoeye1321@gmail.com");
+             echo  greet_hng("Owoeye Samuel","HNG-02249","PHP","Owoeye1321@gmail.com");
 
 
 ?>
