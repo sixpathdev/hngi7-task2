@@ -1,6 +1,6 @@
+const email = "nelisamaqungo@gmail.com";
 const name = "Nelisa Maqungo";
 const hng_id = "HNG-01394";
-const email = "nelisamaqungo@gmail.com";
 const language = "javascript";
 
 console.log(
