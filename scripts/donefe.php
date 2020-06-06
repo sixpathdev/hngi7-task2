@@ -1,6 +1,6 @@
 <?php
 // this is my task 2 for hng below are the variables
-$email = "efewbdev@gmail.com";
+$email = "efewebdev@gmail.com";
 $full_name = "Efe Ebieroma";
 $hngid =  "HNG-05896";
 $lang = "PHP";
