@@ -7,4 +7,4 @@ my_id = "HNG-05922"
 email = "ionoreya@gmail.com"
 language = "Python"
 
-print("Hello World, this is " + full_name + " with HNGi7 ID " + my_id + " using " + language + " for stage 2 task")
+print("Hello World, this is " + full_name + " with HNGi7 ID " + my_id + "email " + email + " + using " + language + " for stage 2 task")
