@@ -3,6 +3,6 @@ const theName = "Atanda David";
 const theId = "HNG-04072";
 const thelang = "JavaScript";
 
-const outputLinee = `Hello World, this is ${theName} with HNGi7 ID ${theId} using ${thelang} for stage 2 task email ${theEmail}`;
+const outputLineOut = `Hello World, this is ${theName} with HNGi7 ID ${theId} using ${thelang} for stage 2 task email ${theEmail}`;
 
-console.log(outputLinee);
+console.log(outputLineOut);
