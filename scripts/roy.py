@@ -1,6 +1,6 @@
-Name = 'Amolo Joseph'
-ID = 'HNG-04793'
-Language = 'Python'
-Email = 'amolojoseph2020@gmail.com'
+name = 'Amolo Joseph'
+iD = 'HNG-04793'
+language = 'Python'
+email = 'amolojoseph2020@gmail.com'
 
-return("Hello World, this is {} with HNGi7 ID {} using {} for stage 2 task email {}".format(Name,ID,Language,Email))
+print("Hello World, this is {} with HNGi7 ID {} using {} for stage 2 task email {}".format(name,iD,language,email))
