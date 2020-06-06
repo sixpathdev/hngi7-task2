@@ -8,4 +8,4 @@ var email = "abdulahisaheed001@gmail.com";
 //Print out the output
 var output = "Hello World, this is " + name + " with HNGi7 ID " + hngi7_1d + " using " + language + " for stage 2 task email " + email;
 
-console.log(output)
+console.log(output);
