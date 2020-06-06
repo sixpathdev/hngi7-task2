@@ -1,7 +1,7 @@
 const ME = {
+        email: 'bongi.buzzyb@outlook.com', 
 	name: 'Bongi Mkhonza',
 	ID: 'HNG-01263',
-	email: 'bongi.buzzyb@outlook.com',
 	language: 'Javascript'
 };
 
