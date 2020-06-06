@@ -3,5 +3,5 @@ hng_id = 'HNG-03145'
 user_email = 'degeonu23@gmail.com'
 user_language = 'python'
 
-output = f'Hello World, this is {user_name} with HNGi7 ID {hng_id} using {user_language} for stage 2 task degeonu23@gmail.com'
+output = 'Hello World, this is {user_name} with HNGi7 ID {hng_id} using {user_language} for stage 2 task degeonu23@gmail.com'
 print(output)
