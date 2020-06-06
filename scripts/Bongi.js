@@ -1,8 +1,8 @@
 const Me = {
+    email: 'bongi.buzzyb@outlook.com', 
     name: 'Bongi Mkhonza',
     id: 'HNG-01263',
-    language: 'Javascript',
-    email: 'bongi.buzzyb@outlook.com'
+    language: 'Javascript'  
 };
 
 const Text = ()=> 
