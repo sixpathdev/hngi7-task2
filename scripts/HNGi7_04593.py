@@ -1,5 +1,5 @@
 
-fname = "Aliu Yusuff Ayobami"
+fname = "Aliu Yusuff"
 Id = "HNG-04593"
 lang = "Python"
 email = "aliuyussufayobami@gmail.com"
