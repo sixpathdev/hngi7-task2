@@ -6,6 +6,6 @@ function greetings_hng($name, $email, $hnd_id, $language)
           return data;
    }
    
-   echo greetings_hng("olasode","PHP","HNG-03287","olasodedavid@gmail.com");
+   echo greetings_hng("Olasode David","PHP","HNG-03287","olasodedavid@gmail.com");
    
 ?>
