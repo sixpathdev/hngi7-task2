@@ -1,7 +1,7 @@
  const myDetails =() =>{
 	const info ={
 		email: "matildaipeh@gmail.com",
-		fullName : "ANASHIE MATILDA IPEH",
+		fullName : "Anashie Maltida",
 		HngId: "HNG-06306",
 		language: "javascript",
 		
