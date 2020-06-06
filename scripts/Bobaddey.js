@@ -6,7 +6,7 @@ const output = () =>{
         language: "javascript",
     }
 
-    return 'Hello World, this is '  + info.fullName  + ' with HNGi7 ID ' + info.hngId  + ' using ' + info.language + ' for stage 2 task email ' +info.email+'.';
+    return 'Hello World, this is '  + info.fullName  + ' with HNGi7 ID ' + info.hngId  + ' using ' + info.language + ' for stage 2 task email ' +info.email;
 }
 
 console.log(output());
