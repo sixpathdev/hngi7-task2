@@ -16,3 +16,7 @@ samad = Intern(name="Adeleke Abdulsamad",
                )
 
 print(samad)
+
+"""
+    Hello World, this is YOUR NAME with HNGi7 ID YOUR ID using THE LANGUAGE for stage 2 task email YOUR EMAIL HERE.
+"""
