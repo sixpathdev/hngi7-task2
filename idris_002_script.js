@@ -1,5 +1,5 @@
 const email = 'adekoyainfo@gmail.com';
-const full_name = Idris Adekoya';
+const full_name = 'Idris Adekoya';
 const hng_id = 'HNG-02675';
 const language = 'javascript';
 
