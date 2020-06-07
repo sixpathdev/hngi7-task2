@@ -1,0 +1,8 @@
+email = "eliemigisha5@gmail.com"
+full_name = "Migisha Bafuliru"
+hng_id = "HNG-01137"
+language = "python"
+Output = f'Hello World, this is 
+{full_name} with HNGi7 ID {hng_id}
+using {language} for stage 2 task
+email {email}'
