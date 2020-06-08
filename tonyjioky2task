@@ -1,0 +1,10 @@
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+>>> # hello-World-project
+>>> # Hello World, this is (fullname with HNGi7ID [HNG-ID])
+>>> full_name = "Onyiba ANthony Chijioke"
+>>> hng_id = "HNG- 00474"
+>>> language = "python"
+>>> email = "tonyjioky@gmail.com"
+>>>  print ("Hello World, this is ", full_name, "with", "HNGi7 ID",hng_id, "using", language, "for the stage two task email", email)
